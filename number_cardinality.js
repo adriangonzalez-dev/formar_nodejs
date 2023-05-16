@@ -14,7 +14,7 @@ const number_cardinality = (num) => {
 
     if(last_str === String(5)) return TYPES_CARDINALITY.FIVE;
 
-    if(num % 2 === 0 & last_str !== String(0)) return TYPES_CARDINALITY.EVEN;
+    if(num % 2 === 0 && last_str !== String(0)) return TYPES_CARDINALITY.EVEN;
 
-    if(num % 2 !== 0 & last_str !== String(5)) return TYPES_CARDINALITY.ODD;
+    if(num % 2 !== 0 && last_str !== String(5)) return TYPES_CARDINALITY.ODD;
 }
